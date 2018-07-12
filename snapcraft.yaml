@@ -1,4 +1,4 @@
-name: viber
+name: jkitsakis-viber
 version: '1.0'
 summary: Free and secure calls and messages to anyone, anywhere
 description: | 
@@ -12,7 +12,7 @@ grade: devel
 confinement: strict
 
 apps:
-  viber:
+  jkitsakis-viber:
     command: desktop-launch $SNAP/opt/viber/Viber
     desktop: usr/share/applications/my-app.desktop
     plugs:
@@ -28,7 +28,7 @@ apps:
      - gsettings
 
 parts:
-  viber:
+  jkitsakis-viber:
     plugin: dump
     source: http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
     source-type: deb
